@@ -1,17 +1,11 @@
 import React, {Component} from 'react';
 
-import CalendarLayOut from '../../components/CalendarLayOut';
+import Calendar from '../../containers/calendar';
 
-class Calendar extends Component {
+class CalendarContainer extends Component {
     render() {
-        return (
-            <CalendarLayOut>
-                <div>
-                    <h1>Calendar</h1>
-                </div>
-            </CalendarLayOut>
-        )
+        return <Calendar />
     }
 }
 
-export default Calendar;
+export default CalendarContainer;

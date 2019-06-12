@@ -10,7 +10,7 @@ module.exports = function(app){
         var newItem = createModel(req.params.entity, req.body);
         newItem._creationDate = new Date();
         db.insert(newItem, function(err, docs){
-            res.send({ success: true, newItem: docs});
+            res.send({ success: true, data: docs});
         });
     });
     app.post('/api/:entity/update', function(req, res) {
@@ -37,13 +37,13 @@ module.exports = function(app){
             _entityType: req.params.entity,
             _id: req.params.id
         }, function (err, doc) {
-            res.send({ success: doc != null, item: doc });
+            res.send({ success: doc != null, data: doc });
           });
     });
     app.post('/api/:entity/get', function(req, res) {
         var filter = createModel(req.params.entity, req.body);
         db.find(filter, function (err, docs) {
-            res.send({ success: docs != null, items: docs });
+            res.send({ success: docs != null, data: docs });
           });
     });
 

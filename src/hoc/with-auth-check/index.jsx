@@ -16,7 +16,6 @@ class Index extends Component {
     async userDataToStore() {
         const userData = await UserService.getUserData();
         if (userData) {
-            console.log(userData);
             await this.props.setUserData(userData);
         }
     }

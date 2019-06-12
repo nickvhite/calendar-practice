@@ -1,6 +1,7 @@
 @import "font-awesome/fontAwesome.min.css";
 @import "auth_layout.css";
 @import "auth_form.css";
+@import "calendar_month.css";
 body {
   margin: 0;
   padding: 0;

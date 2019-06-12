@@ -3,7 +3,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Login from './login';
 import Register from './register';
-import Calendar from './calendar';
+import CalendarContainer from './calendar';
 
 import WithAuthCheck from '../hoc/with-auth-check'
 import AuthLayOut from '../components/AuthLayOut';
@@ -21,7 +21,7 @@ export default class Router extends Component {
                             </AuthLayOut>
                         </Route>
                     </Switch>
-                    <Route path='/calendar' component={Calendar}/>
+                    <Route path='/calendar' component={CalendarContainer}/>
                 </WithAuthCheck>
             </BrowserRouter>
         )
