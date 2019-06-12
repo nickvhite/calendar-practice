@@ -28,9 +28,10 @@
   "scripts": {
     "build-css": "node-less-chokidar src / -o src /",
     "watch-css": "npm run build-css && node-less-chokidar src / -o src / --watch --recursive ",
-    "start": "npm-run-all -p watch-css start-client",
-    "start-client": "react-scripts start",
+    "start-client": "npm-run-all -p watch-css start-react",
+    "start-react": "react-scripts start",
     "start-server": "node server.js",
+    "start-all": "npm-run-all -p start-client start-server",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
