@@ -1,0 +1,23 @@
+.calendar-header,
+.auth-header {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  border-bottom: 1px solid gray;
+  box-sizing: border-box;
+}
+.calendar-header button,
+.auth-header button,
+.calendar-header a,
+.auth-header a {
+  margin-right: 20px;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 26px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  color: black;
+}
