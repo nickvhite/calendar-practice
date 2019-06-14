@@ -1,0 +1,63 @@
+.calendar-header,
+.auth-header {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  border-bottom: 1px solid gray;
+  box-sizing: border-box;
+
+  button, a {
+    margin-right: 20px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 26px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    color: black;
+  }
+}
+
+.calendar-header {
+  justify-content: space-between;
+
+  .day-number-container {
+    margin-left: 50px;
+    position: relative;
+
+    i {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 5px 0;
+      font-size: 40px;
+      color: #1a73e8;
+    }
+
+    p {
+      margin-top: 9px;
+      line-height: 40px;
+      font-size: 24px;
+      font-weight: 600;
+      width: 35px;
+      text-align: center;
+    }
+  }
+
+  .calendar-navigator {
+    button {
+      margin: 5px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 24px;
+      color: #1a73e8;
+    }
+
+    span {
+      line-height: 50px;
+      font-size: 24px;
+    }
+  }
+}

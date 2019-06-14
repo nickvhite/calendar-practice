@@ -1,60 +1,42 @@
 import React, {Component} from 'react';
 import dateFns from "date-fns";
 
-class CalendarMonth extends Component {
-    constructor(props) {
-        super(props);
-        console.log(this.props);
-    }
+import CalendarDay from '../CalendarDay';
 
-    renderCells() {
-        const { currentMonth, selectedDate } = this.props;
-        const monthStart = dateFns.startOfMonth(currentMonth);
-        const monthEnd = dateFns.endOfMonth(monthStart);
-        const startDate = dateFns.startOfWeek(monthStart);
-        const endDate = dateFns.endOfWeek(monthEnd);
+const CalendarMonth = ({ currentMonth, selectedDate, onCalendarClick }) => {
+    const monthStart = dateFns.startOfMonth(currentMonth);
+    const monthEnd = dateFns.endOfMonth(monthStart);
+    const startDate = dateFns.startOfWeek(monthStart);
+    const endDate = dateFns.endOfWeek(monthEnd);
+    const rows = [];
+    let days = [];
+    let day = startDate;
+    let formattedDate = "";
 
-        const dateFormat = "D";
-        const rows = [];
-
-        let days = [];
-        let day = startDate;
-        let formattedDate = "";
-
-        while (day <= endDate) {
-            for (let i = 0; i < 7; i++) {
-                formattedDate = dateFns.format(day, dateFormat);
-                const cloneDay = day;
-                days.push(
-                    <div
-                        className={`day-container ${
-                            !dateFns.isSameMonth(day, monthStart)
-                                ? "disabled"
-                                : dateFns.isSameDay(day, selectedDate) ? "selected" : ""
-                            }`}
-                        key={day}
-                        // onClick={() => this.onDateClick(dateFns.parse(cloneDay))}
-                    >
-                        <div className="day-number">
-                            <span>{formattedDate}</span>
-                        </div>
-                    </div>
-                );
-                day = dateFns.addDays(day, 1);
-            }
-            rows.push(
-                <div className="week-container" key={day}>
-                    {days}
-                </div>
+    while (day <= endDate) {
+        for (let i = 0; i < 7; i++) {
+            formattedDate = dateFns.format(day, "D");
+            days.push(
+                <CalendarDay
+                    key={day}
+                    additionalClass={!dateFns.isSameMonth(day, monthStart)
+                        ? "disabled"
+                        : dateFns.isSameDay(day, selectedDate) ? "selected" : ""
+                    }
+                    formattedDate={dateFns.format(day, 'M/D/YY')}
+                    dayNumber={formattedDate}
+                />
             );
-            days = [];
+            day = dateFns.addDays(day, 1);
         }
-        return <div className="calendar-month-container">{rows}</div>;
+        rows.push(
+            <div className="week-container" key={day}>
+                {days}
+            </div>
+        );
+        days = [];
     }
-
-    render() {
-        return this.renderCells()
-    }
-}
+    return <div className="calendar-month-container" onClick={(e) => onCalendarClick(e)}>{rows}</div>;
+};
 
 export default CalendarMonth;

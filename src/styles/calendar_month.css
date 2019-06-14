@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   flex: 1 1 0%;
-  position: relative;
-  height: calc(100% - 50px);
+  height: calc(100% - 74px);
   border-left-color: #dadce0;
   border-left-style: solid;
   border-left-width: 1px;
+  position: relative;
 }
 .calendar-month-container .week-container {
   display: flex;
@@ -26,8 +26,8 @@
   border-right-width: 1px;
 }
 .calendar-month-container .week-container .day-container.disabled {
-  opacity: 0.6;
   pointer-events: none;
+  color: #70757a;
 }
 .calendar-month-container .week-container .day-container .day-number {
   text-align: center;
@@ -50,4 +50,68 @@
 }
 .calendar-month-container .week-container .day-container.selected .day-number span:hover {
   background-color: #1967d2;
+}
+.calendar-month-container .week-container .day-container .event-container {
+  height: calc(100% - 33px);
+  padding-right: 8px;
+  padding-top: 3px;
+}
+.calendar-month-container .week-container .day-container .event-container .event-creator,
+.calendar-month-container .week-container .day-container .event-container .no-time-event {
+  color: white;
+  background-color: #7986cb;
+}
+.calendar-month-container .week-container .day-container .event-container .event-creator:hover,
+.calendar-month-container .week-container .day-container .event-container .no-time-event:hover {
+  background-color: #6d7ab6;
+}
+.calendar-month-container .week-container .day-container .event-container .reminder {
+  background-color: #4285F4;
+  color: white;
+}
+.calendar-month-container .week-container .day-container .event-container .reminder:hover {
+  background-color: #3e79da;
+}
+.calendar-month-container .week-container .day-container .event-container .task {
+  background-color: #3F51B5;
+  color: white;
+}
+.calendar-month-container .week-container .day-container .event-container .task:hover {
+  background-color: #3b4ba3;
+}
+.calendar-month-container .week-container .day-container .event-container .time-event:hover {
+  background-color: #f2f4f4;
+}
+.calendar-month-container .week-container .day-container .event-container p {
+  padding: 0 8px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 23px;
+  border-radius: 4px;
+  margin: 0 0 2px 0;
+  cursor: pointer;
+}
+.calendar-month-container .week-container .day-container .event-container p i {
+  margin-right: 4px;
+}
+.calendar-month-container .week-container .day-container .event-container p span {
+  margin-right: 4px;
+}
+.week-days-container {
+  display: flex;
+  justify-content: space-between;
+  color: #70757a;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  border-left-color: #dadce0;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+.week-days-container p {
+  width: 100%;
+  border-right-color: #dadce0;
+  border-right-style: solid;
+  border-right-width: 1px;
+  margin: 0;
 }

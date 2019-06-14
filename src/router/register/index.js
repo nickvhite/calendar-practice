@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import RegisterForm from '../../containers/register-form';
+import RegisterForm from '../../containers/Register-form';
 
 class Register extends Component {
     render() {

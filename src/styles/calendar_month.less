@@ -3,10 +3,11 @@
   flex-direction: column;
   flex: 1 1 0%;
   position: relative;
-  height: calc(100% - 50px);
+  height: calc(100% - 74px);
   border-left-color: rgb(218, 220, 224);
   border-left-style: solid;
   border-left-width: 1px;
+  position: relative;
 
   .week-container {
     display: flex;
@@ -26,8 +27,8 @@
       border-right-width: 1px;
 
       &.disabled {
-        opacity: 0.6;
         pointer-events: none;
+        color: #70757a;
       }
 
       .day-number {
@@ -60,6 +61,84 @@
           }
         }
       }
+
+      .event-container {
+        height: calc(100% - 33px);
+        padding-right: 8px;
+        padding-top: 3px;
+
+        .event-creator,
+        .no-time-event {
+          color: white;
+          background-color: rgb(121, 134, 203);
+
+          &:hover {
+            background-color: #6d7ab6;
+          }
+        }
+
+        .reminder {
+          background-color: #4285F4;
+          color: white;
+
+          &:hover {
+            background-color: #3e79da;
+          }
+        }
+
+        .task {
+          background-color: #3F51B5;
+          color: white;
+
+          &:hover {
+            background-color: #3b4ba3;
+          }
+        }
+
+        .time-event:hover {
+          background-color: #f2f4f4;
+        }
+
+        p {
+          padding: 0 8px;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 23px;
+          border-radius: 4px;
+          margin: 0 0 2px 0;
+          cursor: pointer;
+
+          i {
+            margin-right: 4px;
+          }
+
+          span {
+            margin-right: 4px;
+          }
+        }
+
+
+      }
     }
+  }
+}
+
+.week-days-container {
+  display: flex;
+  justify-content: space-between;
+  color: #70757a;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  border-left-color: #dadce0;
+  border-left-style: solid;
+  border-left-width: 1px;
+
+  p {
+    width: 100%;
+    border-right-color: #dadce0;
+    border-right-style: solid;
+    border-right-width: 1px;
+    margin: 0;
   }
 }

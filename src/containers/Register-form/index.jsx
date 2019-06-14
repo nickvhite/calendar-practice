@@ -13,7 +13,6 @@ import AuthButton from '../../components/AuthButton';
 class RegisterForm extends Component {
     constructor(props) {
         super(props);
-        console.log(this.props);
         this.state = {
             login: '',
             pass: '',

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Calendar from '../../containers/calendar';
+import Calendar from '../../containers/Calendar';
 
 class CalendarContainer extends Component {
     render() {
