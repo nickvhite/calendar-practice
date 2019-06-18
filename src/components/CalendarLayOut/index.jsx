@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
+import {Link} from 'react-router-dom'
+
 import {logoutUSer} from '../../store/user'
 
 import UserService from '../../services/user-service';
 import dateFns from "date-fns";
+
+import {Header, HeaderLink} from "../StyledComponents";
 
 class CalendarLayOut extends Component {
     constructor(props) {
@@ -19,7 +23,7 @@ class CalendarLayOut extends Component {
     render() {
         return (
             <div className="general-layout">
-                <div className='calendar-header'>
+                <Header className='calendar-header'>
                     <div className='day-number-container'>
                         <i className="far fa-calendar" />
                         <p>{this.props.currentDay}</p>
@@ -33,8 +37,8 @@ class CalendarLayOut extends Component {
                         {/*</button>*/}
                         <span>{dateFns.format(this.props.currentMonth, 'MMMM YYYY')}</span>
                     </div>
-                    <button className='logout-button' onClick={() => this.logout()}>Sign out</button>
-                </div>
+                    <HeaderLink to='/' className='logout-button' onClick={() => this.logout()}>Sign out</HeaderLink>
+                </Header>
                 {this.props.children}
             </div>
         )

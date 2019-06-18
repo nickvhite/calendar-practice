@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Link, withRouter} from 'react-router-dom';
 
+import {Header, HeaderLink} from "../StyledComponents";
+
 class AuthLayOut extends Component {
     constructor(props) {
         super(props);
@@ -9,10 +11,10 @@ class AuthLayOut extends Component {
     render() {
         return (
             <div className="general-layout">
-                <div className='auth-header'>
-                    <Link to="/auth/login">Sign In</Link>
-                    <Link to="/auth/register">Sign Up</Link>
-                </div>
+                <Header className='auth-header'>
+                    <HeaderLink to="/auth/login">Sign In</HeaderLink>
+                    <HeaderLink to="/auth/register">Sign Up</HeaderLink>
+                </Header>
                 {this.props.children}
             </div>
         )

@@ -10,6 +10,8 @@ import AuthInput from '../../components/AuthInput';
 import AuthPasswordInput from '../../components/AuthPasswordInput';
 import AuthButton from '../../components/AuthButton';
 
+import {FormContainer, AuthForm} from "../../components/StyledComponents";
+
 class RegisterForm extends Component {
     constructor(props) {
         super(props);
@@ -113,8 +115,8 @@ class RegisterForm extends Component {
 
     render() {
         return (
-            <div className='form-container'>
-                <form
+            <FormContainer>
+                <AuthForm
                     className='auth-form login-form'
                     onSubmit={(e) => {
                         e.preventDefault();
@@ -147,8 +149,8 @@ class RegisterForm extends Component {
                         value="Sign Up"
                         send={()=>this.sendForm()}
                     />
-                </form>
-            </div>
+                </AuthForm>
+            </FormContainer>
         )
     }
 }

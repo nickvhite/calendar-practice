@@ -9,6 +9,8 @@ import AuthInput from '../../components/AuthInput';
 import AuthPasswordInput from '../../components/AuthPasswordInput';
 import AuthButton from '../../components/AuthButton';
 
+import {FormContainer, AuthForm} from "../../components/StyledComponents";
+
 class LoginForm extends Component {
     constructor(props) {
         super(props);
@@ -87,9 +89,8 @@ class LoginForm extends Component {
 
     render() {
         return (
-            <div className='form-container'>
-                <form
-                    className='auth-form login-form'
+            <FormContainer>
+                <AuthForm
                     onSubmit={(e) => {
                         e.preventDefault();
                         this.sendForm();
@@ -114,8 +115,8 @@ class LoginForm extends Component {
                         value="Sign In"
                         send={()=>this.sendForm()}
                     />
-                </form>
-            </div>
+                </AuthForm>
+            </FormContainer>
         )
     }
 }

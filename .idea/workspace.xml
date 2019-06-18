@@ -2,36 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6433816-4234-4292-bae8-7aa3bcdc71a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CalendarDay/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CalendarWeek/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/CreatingForm/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/EventForm/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/EventsContainer/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/eventForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/event_form.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StyledComponents/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eintities" beforeDir="false" afterPath="$PROJECT_DIR$/eintities" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthButton/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthButton/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthInput/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthInput/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthLayOut/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthLayOut/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthPasswordInput/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthPasswordInput/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CalendarLayOut/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CalendarLayOut/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CalendarMonth/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CalendarMonth/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/calendar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Calendar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/login-form/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Login-form/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/register-form/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Register-form/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/calendar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/calendar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/register/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/register/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/entitie-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/entitie-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/entities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/entities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/auth_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layouts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/auth_layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layouts.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/auth_layout.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layouts.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Login-form/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Login-form/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Register-form/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Register-form/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/auth_form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/auth_form.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/auth_form.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/calendar_month.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/calendar_month.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/calendar_month.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/calendar_month.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/calendar_month.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/calendar_month.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/event_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/event_form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/layouts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layouts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/layouts.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layouts.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users" beforeDir="false" afterPath="$PROJECT_DIR$/users" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,18 +30,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/EventsContainer/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/CalendarLayOut/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="442">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -60,73 +45,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/calendar_month.less">
+        <entry file="file://$PROJECT_DIR$/src/components/AuthLayOut/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/CreatingForm/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="92" column="56" lean-forward="true" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/entities.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="51">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/Calendar/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="67" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/CalendarLayOut/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="32" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/layouts.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+            <state relative-caret-position="98">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/index.less">
+        <entry file="file://$PROJECT_DIR$/src/components/StyledComponents/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="391">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,6 +92,8 @@
       <find>getEntities</find>
       <find>event-container</find>
       <find>day-container</find>
+      <find>input-container</find>
+      <find>.day</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,27 +102,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/GeneralLayOut/index.jsx" />
-        <option value="$PROJECT_DIR$/src/hoc/styles.less" />
-        <option value="$PROJECT_DIR$/src/hoc/with-auth-check.jsx" />
         <option value="$PROJECT_DIR$/src/hoc/with-auth-check/styles.less" />
         <option value="$PROJECT_DIR$/src/components/AuthLayOut/styles.less" />
         <option value="$PROJECT_DIR$/src/router/login/index.js" />
         <option value="$PROJECT_DIR$/src/services/validationService.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/AuthLayOut/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/AuthPasswordInput/index.jsx" />
         <option value="$PROJECT_DIR$/src/services/validation-service.js" />
-        <option value="$PROJECT_DIR$/src/components/AuthInput/index.jsx" />
         <option value="$PROJECT_DIR$/src/router/register/index.js" />
-        <option value="$PROJECT_DIR$/src/components/AuthButton/index.jsx" />
         <option value="$PROJECT_DIR$/src/containers/login-form/index.jsx" />
         <option value="$PROJECT_DIR$/server/API/UserController.js" />
         <option value="$PROJECT_DIR$/src/store/user.js" />
         <option value="$PROJECT_DIR$/src/containers/register-form/index.jsx" />
         <option value="$PROJECT_DIR$/src/services/user-service.js" />
         <option value="$PROJECT_DIR$/src/styles/auth_layout.less" />
-        <option value="$PROJECT_DIR$/src/styles/auth_form.less" />
         <option value="$PROJECT_DIR$/src/router/index.jsx" />
         <option value="$PROJECT_DIR$/src/hoc/with-auth-check/index.jsx" />
         <option value="$PROJECT_DIR$/server/API/EntityController.js" />
@@ -196,7 +133,6 @@
         <option value="$PROJECT_DIR$/src/containers/EventForm/index.js" />
         <option value="$PROJECT_DIR$/src/styles/event_form.less" />
         <option value="$PROJECT_DIR$/src/containers/EventForm/index.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/Register-form/index.jsx" />
         <option value="$PROJECT_DIR$/src/services/entitie-service.js" />
         <option value="$PROJECT_DIR$/src/services/server-service.js" />
         <option value="$PROJECT_DIR$/src/components/CreatingForm/index.jsx" />
@@ -204,10 +140,19 @@
         <option value="$PROJECT_DIR$/src/styles/calendar_month.less" />
         <option value="$PROJECT_DIR$/src/containers/CreatingForm/index.jsx" />
         <option value="$PROJECT_DIR$/src/store/entities.js" />
-        <option value="$PROJECT_DIR$/src/styles/index.less" />
-        <option value="$PROJECT_DIR$/src/styles/layouts.less" />
-        <option value="$PROJECT_DIR$/src/components/CalendarLayOut/index.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Calendar/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/AuthButton/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/AuthPasswordInput/index.jsx" />
+        <option value="$PROJECT_DIR$/src/styles/auth_form.less" />
+        <option value="$PROJECT_DIR$/src/styles/index.less" />
+        <option value="$PROJECT_DIR$/src/styles/index.css" />
+        <option value="$PROJECT_DIR$/src/components/AuthInput/index.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Login-form/index.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Register-form/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/StyledComponents/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/AuthLayOut/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/CalendarLayOut/index.jsx" />
+        <option value="$PROJECT_DIR$/src/styles/layouts.less" />
       </list>
     </option>
   </component>
@@ -217,10 +162,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="1291" />
-    <option name="height" value="1051" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -228,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,7 +196,28 @@
               <item name="calendar-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="calendar-practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="AuthLayOut" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calendar-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calendar-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="StyledComponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calendar-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calendar-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calendar-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calendar-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Register-form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="calendar-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -262,18 +229,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/router/calendar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -314,20 +280,24 @@
       <workItem from="1560418232601" duration="29462000" />
       <workItem from="1560496721661" duration="16028000" />
       <workItem from="1560514035638" duration="3526000" />
+      <workItem from="1560855947533" duration="312000" />
+      <workItem from="1560863569860" duration="859000" />
+      <workItem from="1560864458537" duration="2942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113952000" />
+    <option name="totallyTimeSpent" value="118065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1291" height="1051" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25381526" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20951156" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.1626898" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.17227456" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -349,9 +319,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GeneralLayOut/index.jsx" />
     <entry file="file://$PROJECT_DIR$/src/hoc/with-auth-check/styles.less" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
@@ -365,29 +332,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/font-awesome/css/brands.css" />
-    <entry file="file://$PROJECT_DIR$/src/styles/font-awesome/css/fontawesome.css" />
     <entry file="file://$PROJECT_DIR$/src/styles/font-awesome/css/regular.css" />
     <entry file="file://$PROJECT_DIR$/src/styles/font-awesome/css/solid.css" />
     <entry file="file://$PROJECT_DIR$/src/styles/font-awesome/css/svg-with-js.css" />
     <entry file="file://$PROJECT_DIR$/src/styles/font-awesome/css/v4-shims.css" />
-    <entry file="file://$PROJECT_DIR$/src/styles/font-awesome/css/fontAwesome.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/AuthPasswordInput/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AuthInput/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/font-awesome/css/fontawesome.css" />
     <entry file="file://$PROJECT_DIR$/src/router/register/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -395,13 +344,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AuthButton/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -440,33 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/auth_form.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AuthLayOut/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Login-form/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="125" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -491,13 +406,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -550,13 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-datepicker/es/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="2529" column="46" lean-forward="true" selection-start-line="2529" selection-start-column="46" selection-end-line="2529" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-datepicker/es/index.js" />
     <entry file="file://$PROJECT_DIR$/src/services/user-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -581,30 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Register-form/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/server-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CalendarMonth/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,27 +504,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CalendarDay/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/containers/EventsContainer/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        <state relative-caret-position="51">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/CreatingForm/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="92" column="56" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AuthButton/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/calendar_month.less">
+    <entry file="file://$PROJECT_DIR$/src/styles/auth_form.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/EventsContainer/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/AuthPasswordInput/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Calendar/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -651,52 +570,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/entities.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CalendarMonth/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CalendarDay/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/calendar_month.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="122" column="3" lean-forward="true" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/layouts.less">
+    <entry file="file://$PROJECT_DIR$/src/containers/Register-form/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="148">
+          <caret line="12" column="74" lean-forward="true" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Login-form/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AuthInput/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="88" column="32" lean-forward="true" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AuthLayOut/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CalendarLayOut/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="442">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/CreatingForm/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/StyledComponents/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="92" column="56" lean-forward="true" selection-start-line="92" selection-start-column="56" selection-end-line="92" selection-end-column="56" />
+        <state relative-caret-position="391">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Calendar/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/styles/layouts.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="67" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="98">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
